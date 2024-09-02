@@ -42,8 +42,8 @@ python project-deployment1.py
 
 ### Running the Simulation
 1. Start the CARLA server as described above
-2. Run the 'project-deployment1.py' script
-3. The simulation will start, and the vehicle should detect lanes using the loaded LaneNet model.
+2. Download the 'project-deployment1.py' script and add it to the downloaded CARLA folder
+4. The simulation will start, and the vehicle should detect lanes using the loaded LaneNet model.
 
 ## Pretrained Weights
 This project uses pretrained weights from the [LaneNet PyTorch implementation](https://github.com/IrohXu/lanenet-lane-detection-pytorch.git) by IrohXu. These weights were used as the starting point for fine-tuning the model to improve performance under nighttime driving conditions.
