@@ -20,7 +20,7 @@ The dataset used in this project includes training, validation, and test data fo
 
 ## CARLA Integration
 
-### Prerequisites
+## Prerequisites
 - Python 3.7.10
 - PyTorch
 - CARLA 0.9.10: [Download CARLA](https://carla.org/)
@@ -32,7 +32,7 @@ The dataset used in this project includes training, validation, and test data fo
  ./CarlaUE4.sh
 3. Ensure CARLA is running in the background before starting the simulation script.
 
-### Loading the LaneNet Model in CARLA
+## Loading the LaneNet Model in CARLA
 1. Place your trained model `.pth` file in the appropriate directory.
 2. Modify the CARLA Python API script to load your model:
 ```python
@@ -40,7 +40,7 @@ model = torch.load('path_to_your_model.pth')
 3. Run the Script with:
 python project-deployment1.py
 
-### Running the Simulation
+## Running the Simulation
 1. Ensure you have CARLA installed on your system.
 2. Navigate to the `PythonAPI/examples/` directory within the CARLA folder. 3. Place the Deployment script; 'project-deployment1.py' into this directory.
 4. Run the deployment script. Ensure CARLA is running before executing the Script
@@ -48,6 +48,6 @@ python project-deployment1.py
 ## Pretrained Weights
 This project uses pretrained weights from the [LaneNet PyTorch implementation](https://github.com/IrohXu/lanenet-lane-detection-pytorch.git) by IrohXu. These weights were used as the starting point for fine-tuning the model to improve performance under nighttime driving conditions.
 
-###How to Use the Pretrained Weights
+## How to Use the Pretrained Weights
 1. Download the Weights: Clone the repository or download the pretrained weights from [here](https://github.com/IrohXu/lanenet-lane-detection-pytorch.git).
 2. Load the Weights: Place the weights in the appropriate directory and specify the path in your configuration file or code.
