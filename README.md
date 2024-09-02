@@ -19,14 +19,13 @@ The dataset used in this project includes training, validation, and test data fo
 - `test_label/`: Contains the labels for the test images.
 
 ## CARLA Integration
-
-## Prerequisites
+Prerequisites
 - Python 3.7.10
 - PyTorch
 - CARLA 0.9.10: [Download CARLA](https://carla.org/)
 - Ensure you have sufficient system resources (CPU, GPU) to run CARLA and your model simultaneously.
 
-### Setting Up CARLA
+Setting Up CARLA
 1. Download and install CARLA from the official website.
 2. Start the CARLA server by navigating to the CARLA root directory and running:
  ./CarlaUE4.sh
