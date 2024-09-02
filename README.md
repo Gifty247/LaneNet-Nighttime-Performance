@@ -41,11 +41,13 @@ python project-deployment1.py
 
 Running the Simulation
 1. Ensure you have CARLA installed on your system.
-2. Navigate to the `PythonAPI/examples/` directory within the CARLA folder. 3. Place the Deployment script; 'project-deployment1.py' into this directory.
+2. Navigate to the `PythonAPI/examples/` directory within the CARLA folder.
+3. Place the Deployment script; 'project-deployment1.py' into this directory.
 4. Run the deployment script. Ensure CARLA is running before executing the Script
 
 Pretrained Weights
-This project uses pretrained weights from the [LaneNet PyTorch implementation](https://github.com/IrohXu/lanenet-lane-detection-pytorch.git) by IrohXu. These weights were used as the starting point for fine-tuning the model to improve performance under nighttime driving conditions.
+This project uses pretrained weights from the [LaneNet PyTorch implementation](https://github.com/IrohXu/lanenet-lane-detection-pytorch.git) by IrohXu.
+These weights were used as the starting point for fine-tuning the model to improve performance under nighttime driving conditions.
 
 How to Use the Pretrained Weights
 1. Download the Weights: Clone the repository or download the pretrained weights from [here](https://github.com/IrohXu/lanenet-lane-detection-pytorch.git).
